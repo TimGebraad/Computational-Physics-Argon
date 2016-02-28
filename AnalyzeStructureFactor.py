@@ -2,7 +2,7 @@
 """
 Created on Mon Feb 22 16:38:48 2016
 
-@author: timge
+@author: Marienne Faro
 """
 import  pickle
 import matplotlib.pyplot as plt
