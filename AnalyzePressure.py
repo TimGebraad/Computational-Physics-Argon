@@ -76,7 +76,7 @@ def PressureAnalysis (szFolder):
     for key in SpecVol:
         if not SpecVol[key] == []:   
             Labels.append(key)
-#            ax.plot(np.linspace(0, RhoInvMax)*specvol2cmg, 1/np.linspace(0, RhoInvMax)*Temp[key]*pressure2tentosixtNm, color=color[key], alpha=0.2, linewidth=3, label=key)
+            ax.plot(np.linspace(0, RhoInvMax)*specvol2cmg, 1/np.linspace(0, RhoInvMax)*Temp[key]*pressure2tentosixtNm, color=color[key], alpha=0.2, linewidth=3, label=key)
             ax.errorbar(SpecVol[key], Pres[key], yerr=PresError[key], color=color[key], label=key)
     ax.set_title('Pressure')
     ax.set_xlabel('Specific volume (cm^3/g)')
