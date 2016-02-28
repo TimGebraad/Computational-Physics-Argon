@@ -2,7 +2,7 @@
 """
 Created on Wed Feb 24 09:49:19 2016
 
-@author: timge
+@author: Marienne Faro
 """
 
 import pickle
